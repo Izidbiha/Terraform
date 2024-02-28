@@ -1,0 +1,4 @@
+variable region {
+
+app_region = eu_west_3
+}
