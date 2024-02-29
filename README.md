@@ -8,7 +8,7 @@ This repo contains Terraform code examples on AWS (Amazon Web Services).
 * You must have [Terraform](https://www.terraform.io/) installed on your computer.
 * You must have an [AWS (Amazon Web Services)](http://aws.amazon.com/) account.
 * It uses the Terraform AWS Provider that interacts with the many resources supported by AWS through its APIs.
-* This code was written for Terraform 0.10.x.
+* This code was written for Terraform 1.7.4.
 
 ## Using the code
 
