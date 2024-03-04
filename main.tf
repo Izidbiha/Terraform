@@ -27,7 +27,7 @@ resource "aws_instance" "example" {
   }
 }
 
-# Output variable: Public IP address
-output "public_ip" {
-  value = aws_instance.example.public_ip
+# Create an S3_bucket 
+resource "aws_s3_bucket" "terraform_state" {
+  bucket = "my-first-bucket-terraform-state"
 }
