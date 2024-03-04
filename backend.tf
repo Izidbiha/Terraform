@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket = "my-first-bucket-terraform-state"
-    key = "terraform-state/terraform.tfstate"
+    key = "terraform-state/terraform.tfstate"   #use the bucket you created in your main.tf file
     region = "eu-west-3"
  }
 }
